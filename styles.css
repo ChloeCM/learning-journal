@@ -1,0 +1,27 @@
+html,
+body {
+  font-size: 1rem;
+  /* margin: 0.5rem; */
+  /* padding: 1rem; */
+  font-family: "Roboto", sans-serif;
+}
+
+header,
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+header > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  body {
+  }
+}
