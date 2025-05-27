@@ -1,27 +1,38 @@
 html,
 body {
   font-size: 1rem;
-  /* margin: 0.5rem; */
-  /* padding: 1rem; */
+  margin: 0;
+  padding: 0.5rem;
   font-family: "Roboto", sans-serif;
 }
 
-header,
-.nav-bar {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
-  padding: 10px;
+  border: 1px solid red;
 }
 
-header > div:first-child {
+.heading {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 0.7rem;
 }
 
-@media (min-width: 768px) {
-  body {
-  }
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav li {
+  list-style-type: none;
+  margin: 0.7rem;
+}
+
+nav a {
+  color: black;
+  text-decoration-line: none;
+  font-weight: 500;
 }
