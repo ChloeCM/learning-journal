@@ -126,7 +126,7 @@ nav a {
 }
 
 .view-more a {
-  color: black;
+  color: grey;
   font-weight: bold;
   cursor: pointer;
   padding-bottom: 2.25rem;
